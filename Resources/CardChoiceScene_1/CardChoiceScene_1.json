@@ -1,0 +1,488 @@
+{
+  "version": "1.0.0.0",
+  "designWidth": 640,
+  "designHeight": 960,
+  "dataScale": 1.0,
+  "textures": [],
+  "texturesPng": [
+    "背面.jpg"
+  ],
+  "widgetTree": {
+    "options": {
+      "$type": "EditorCommon.JsonModel.Component.GUI.RootGUISurrogate, EditorCommon",
+      "visible": true,
+      "frameEvent": null,
+      "name": "Node",
+      "classname": "Node"
+    },
+    "children": [
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 526.0,
+          "y": 800.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 465976003,
+          "tag": 1,
+          "name": "Sprite_2",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 94.0,
+          "y": 799.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 741080515,
+          "tag": 53,
+          "name": "Sprite_3",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 238.0,
+          "y": 799.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 141038713,
+          "tag": 54,
+          "name": "Sprite_4",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 382.0,
+          "y": 800.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 83965385,
+          "tag": 55,
+          "name": "Sprite_5",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 558.0,
+          "y": 598.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 915960348,
+          "tag": 56,
+          "name": "Sprite_6",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 67.0,
+          "y": 602.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 1043486338,
+          "tag": 57,
+          "name": "Sprite_7",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 189.0,
+          "y": 603.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 453787471,
+          "tag": 58,
+          "name": "Sprite_8",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 308.0,
+          "y": 602.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 580668576,
+          "tag": 59,
+          "name": "Sprite_9",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 435.0,
+          "y": 599.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 695565677,
+          "tag": 60,
+          "name": "Sprite_10",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 512.0,
+          "y": 415.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 1056563857,
+          "tag": 61,
+          "name": "Sprite_11",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 112.0,
+          "y": 417.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 74351460,
+          "tag": 62,
+          "name": "Sprite_12",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 246.0,
+          "y": 415.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 693847075,
+          "tag": 63,
+          "name": "Sprite_13",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 380.0,
+          "y": 416.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 395003792,
+          "tag": 64,
+          "name": "Sprite_14",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 552.0,
+          "y": 251.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 911215235,
+          "tag": 65,
+          "name": "Sprite_15",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 64.0,
+          "y": 257.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 360440496,
+          "tag": 66,
+          "name": "Sprite_16",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 187.0,
+          "y": 256.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 599111362,
+          "tag": 67,
+          "name": "Sprite_17",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 309.0,
+          "y": 254.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 16333069,
+          "tag": 68,
+          "name": "Sprite_18",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 433.0,
+          "y": 253.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 85822529,
+          "tag": 69,
+          "name": "Sprite_19",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 511.0,
+          "y": 88.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 783021266,
+          "tag": 70,
+          "name": "Sprite_20",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 110.0,
+          "y": 91.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 744133416,
+          "tag": 72,
+          "name": "Sprite_22",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 240.0,
+          "y": 90.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 894674122,
+          "tag": 73,
+          "name": "Sprite_23",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      },
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.SpriteSurrogate, EditorCommon",
+          "fileName": "背面.jpg",
+          "fileNameData": {
+            "resourceType": 0,
+            "path": "背面.jpg",
+            "plistFile": ""
+          },
+          "x": 378.0,
+          "y": 89.0,
+          "visible": true,
+          "classType": "Sprite",
+          "actionTag": 702421924,
+          "tag": 74,
+          "name": "Sprite_24",
+          "classname": "Sprite"
+        },
+        "children": [],
+        "classname": "Sprite"
+      }
+    ],
+    "classname": "Panel"
+  },
+  "action": {
+    "speed": 1.0,
+    "timelines": []
+  }
+}

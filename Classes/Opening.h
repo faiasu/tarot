@@ -29,9 +29,9 @@ public:
     
     void setBtn();
     
-    void tapHoroscope1(Ref* pSender);
+    void tapHoroscope(cocos2d::Ref* pSender,Widget::TouchEventType);
     
-    void tapHoroscope2(Ref* pSender);
+    void tapCardList(cocos2d::Ref* pSender,Widget::TouchEventType);
     
     void deletechild(int tagNo);
     

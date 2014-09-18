@@ -440,14 +440,53 @@ CallFuncN * CallFuncN::create(Ref* selectorTarget, SEL_CallFuncN selector)
     return nullptr;
 }
 
+CallFuncN * CallFuncN::create(Ref* selectorTarget, SEL_CallFuncND selector, void* d)
+{
+    auto ret = new CallFuncN();
+    
+    if (ret && ret->initWithTarget(selectorTarget, selector, d)) {
+        ret->autorelease();
+        return ret;
+    }
+    
+    CC_SAFE_DELETE(ret);
+    return nullptr;
+}
+
 void CallFuncN::execute() {
-    if (_callFuncN) {
+    
+    if(_callFuncND) {
+        (_selectorTarget->*_callFuncND)(_target, _data);
+    }
+    else if (_callFuncN) {
         (_selectorTarget->*_callFuncN)(_target);
     }
     else if (_functionN) {
         _functionN(_target);
     }
+    else if (_functionND) {
+        _functionND(_target, _data);
+    }
 }
+
+bool CallFuncN::initWithFunction(const std::function<void (Node *,void *)> &func)
+{
+    _functionND = func;
+    return true;
+}
+
+
+bool CallFuncN::initWithTarget(Ref* selectorTarget, SEL_CallFuncND selector, void* d)
+{
+    if (CallFunc::initWithTarget(selectorTarget)) {
+        _callFuncND = selector;
+        _data = d;
+        return true;
+    }
+    
+    return false;
+}
+
 
 bool CallFuncN::initWithFunction(const std::function<void (Node *)> &func)
 {

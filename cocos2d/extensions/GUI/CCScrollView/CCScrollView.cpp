@@ -75,6 +75,19 @@ ScrollView::~ScrollView()
 
 }
 
+ScrollView * ScrollView::create(const Color4B& color, GLfloat width, GLfloat height)
+{
+    ScrollView* pRet = new ScrollView();
+    Size size(width,height);
+    if( pRet && pRet->initWithColor(color,width,height) && pRet->initWithViewSize(size, NULL))
+    {
+        pRet->autorelease();
+        return pRet;
+    }
+    CC_SAFE_DELETE(pRet);
+    return nullptr;
+}
+
 ScrollView* ScrollView::create(Size size, Node* container/* = NULL*/)
 {
     ScrollView* pRet = new ScrollView();

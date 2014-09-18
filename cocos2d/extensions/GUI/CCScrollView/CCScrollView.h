@@ -65,7 +65,7 @@ public:
  * ScrollView support for cocos2d-x.
  * It provides scroll view functionalities to cocos2d projects natively.
  */
-class ScrollView : public Layer, public ActionTweenDelegate
+class ScrollView : public LayerColor, public ActionTweenDelegate
 {
 public:
     enum class Direction
@@ -83,7 +83,7 @@ public:
      * @return autoreleased scroll view object
      */
     static ScrollView* create(Size size, Node* container = NULL);
-
+    static ScrollView * create(const Color4B& color, GLfloat width, GLfloat height);
     /**
      * Returns an autoreleased scroll view object.
      *

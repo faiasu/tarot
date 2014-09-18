@@ -1,0 +1,183 @@
+{
+  "version": "1.0.0.0",
+  "designWidth": 640,
+  "designHeight": 960,
+  "dataScale": 1.0,
+  "textures": [],
+  "texturesPng": [
+    "Opening.jpg",
+    "占うボタン.png",
+    "Card一覧.png"
+  ],
+  "widgetTree": {
+    "options": {
+      "$type": "EditorCommon.JsonModel.Component.GUI.RootGUISurrogate, EditorCommon",
+      "visible": true,
+      "frameEvent": null,
+      "name": "Node",
+      "classname": "Node"
+    },
+    "children": [
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.PanelSurrogate, EditorCommon",
+          "touchAble": true,
+          "visible": true,
+          "classType": "Panel",
+          "width": 640.0,
+          "height": 960.0,
+          "sizePercentX": 1.33333337,
+          "sizePercentY": 3.0,
+          "actionTag": 933857239,
+          "tag": 41,
+          "anchorPointX": 0.0,
+          "anchorPointY": 0.0,
+          "name": "Panel",
+          "classname": "Panel"
+        },
+        "children": [
+          {
+            "options": {
+              "$type": "EditorCommon.JsonModel.Component.GUI.ImageViewSurrogate, EditorCommon",
+              "fileNameData": {
+                "resourceType": 0,
+                "path": "10.jpg",
+                "plistFile": ""
+              },
+              "scale9Width": 300.0,
+              "scale9Height": 960.0,
+              "x": 320.0,
+              "y": 480.0,
+              "visible": true,
+              "classType": "ImageView",
+              "width": 300.0,
+              "height": 960.0,
+              "positionPercentX": 0.5,
+              "positionPercentY": 0.5,
+              "sizePercentX": 1.0,
+              "sizePercentY": 1.0,
+              "actionTag": 595260213,
+              "tag": 42,
+              "name": "ImageView_3",
+              "classname": "ImageView"
+            },
+            "children": [
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.ButtonSurrogate, EditorCommon",
+                  "normalData": {
+                    "resourceType": 0,
+                    "path": "占うボタン.png",
+                    "plistFile": ""
+                  },
+                  "pressedData": {
+                    "resourceType": 0
+                  },
+                  "disabledData": {
+                    "resourceType": 0
+                  },
+                  "text": "",
+                  "capInsetsWidth": 1.0,
+                  "capInsetsHeight": 1.0,
+                  "scale9Width": 180.0,
+                  "scale9Height": 80.0,
+                  "x": -160.0,
+                  "y": -400.0,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "Button",
+                  "width": 180.0,
+                  "height": 80.0,
+                  "positionPercentX": -0.25,
+                  "positionPercentY": -0.416666657,
+                  "sizePercentX": 0.28125,
+                  "sizePercentY": 0.0833333358,
+                  "actionTag": 511726736,
+                  "tag": 44,
+                  "name": "Button_Horoscope",
+                  "classname": "Button"
+                },
+                "children": [],
+                "classname": "Button"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.ButtonSurrogate, EditorCommon",
+                  "normalData": {
+                    "resourceType": 0,
+                    "path": "Card一覧.png",
+                    "plistFile": ""
+                  },
+                  "pressedData": {
+                    "resourceType": 0
+                  },
+                  "disabledData": {
+                    "resourceType": 0
+                  },
+                  "text": "",
+                  "capInsetsWidth": 1.0,
+                  "capInsetsHeight": 1.0,
+                  "scale9Width": 180.0,
+                  "scale9Height": 80.0,
+                  "x": 160.0,
+                  "y": -400.0,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "Button",
+                  "width": 180.0,
+                  "height": 80.0,
+                  "positionPercentX": 0.25,
+                  "positionPercentY": -0.416666657,
+                  "sizePercentX": 0.28125,
+                  "sizePercentY": 0.0833333358,
+                  "actionTag": 143969596,
+                  "tag": 45,
+                  "name": "Button_CardList",
+                  "classname": "Button"
+                },
+                "children": [],
+                "classname": "Button"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+                  "fontSize": 50,
+                  "text": "やみカワ占い",
+                  "areaWidth": 320.0,
+                  "areaHeight": 23.0,
+                  "hAlignment": 1,
+                  "vAlignment": 1,
+                  "y": 400.0,
+                  "scaleY": 3.32,
+                  "colorR": 226,
+                  "colorG": 53,
+                  "colorB": 199,
+                  "visible": true,
+                  "classType": "Label",
+                  "width": 320.0,
+                  "height": 23.0,
+                  "positionPercentY": 0.416666657,
+                  "sizePercentX": 0.5,
+                  "sizePercentY": 0.0239583328,
+                  "actionTag": 798815252,
+                  "tag": 49,
+                  "name": "Label_10",
+                  "classname": "Label"
+                },
+                "children": [],
+                "classname": "Label"
+              }
+            ],
+            "classname": "ImageView"
+          }
+        ],
+        "classname": "Panel"
+      }
+    ],
+    "classname": "Panel"
+  },
+  "action": {
+    "speed": 1.0,
+    "timelines": []
+  }
+}

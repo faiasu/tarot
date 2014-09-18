@@ -73,23 +73,31 @@
 		C3184738196EE72000CCEB25 /* 運勢を選択.png in Resources */ = {isa = PBXBuildFile; fileRef = C3184732196EE72000CCEB25 /* 運勢を選択.png */; };
 		C3184739196EE72000CCEB25 /* 起動画面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3184733196EE72000CCEB25 /* 起動画面.jpg */; };
 		C318473A196EE72000CCEB25 /* 背面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3184734196EE72000CCEB25 /* 背面.jpg */; };
-		C3184740196EE74900CCEB25 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318473B196EE74900CCEB25 /* 0.jpg */; };
-		C3184741196EE74900CCEB25 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318473C196EE74900CCEB25 /* 8.jpg */; };
-		C3184742196EE74900CCEB25 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318473D196EE74900CCEB25 /* 10.jpg */; };
-		C3184743196EE74900CCEB25 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318473E196EE74900CCEB25 /* 17.jpg */; };
-		C3184744196EE74900CCEB25 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318473F196EE74900CCEB25 /* 21.jpg */; };
-		C3184746196EE82200CCEB25 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3184745196EE82200CCEB25 /* 5.jpg */; };
-		C318474D196EE83200CCEB25 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3184747196EE83200CCEB25 /* 9.jpg */; };
-		C318474E196EE83200CCEB25 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3184748196EE83200CCEB25 /* 12.jpg */; };
-		C318474F196EE83200CCEB25 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3184749196EE83200CCEB25 /* 13.jpg */; };
-		C3184750196EE83200CCEB25 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318474A196EE83200CCEB25 /* 14.jpg */; };
-		C3184751196EE83200CCEB25 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318474B196EE83200CCEB25 /* 15.jpg */; };
-		C3184752196EE83200CCEB25 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C318474C196EE83200CCEB25 /* 16.jpg */; };
 		C3184755196EE91500CCEB25 /* Opening.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3184753196EE91500CCEB25 /* Opening.cpp */; };
 		C3184758196EECD500CCEB25 /* 占いボタン1.png in Resources */ = {isa = PBXBuildFile; fileRef = C3184756196EECD500CCEB25 /* 占いボタン1.png */; };
 		C3184759196EECD500CCEB25 /* 占いボタン2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3184757196EECD500CCEB25 /* 占いボタン2.png */; };
 		C318475B196EF49D00CCEB25 /* OpeningSceneDialog_1 in Resources */ = {isa = PBXBuildFile; fileRef = C318475A196EF49D00CCEB25 /* OpeningSceneDialog_1 */; };
-		C3184760196F05D300CCEB25 /* SampleUIAnimation in Resources */ = {isa = PBXBuildFile; fileRef = C318475F196F05D300CCEB25 /* SampleUIAnimation */; };
+		C31847701978295800CCEB25 /* TarotChoiceScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C318476E1978295800CCEB25 /* TarotChoiceScene.cpp */; };
+		C318477219782A0E00CCEB25 /* CardChoiceScene_1 in Resources */ = {isa = PBXBuildFile; fileRef = C318477119782A0E00CCEB25 /* CardChoiceScene_1 */; };
+		C3184775197967C900CCEB25 /* publish in Resources */ = {isa = PBXBuildFile; fileRef = C3184774197967C900CCEB25 /* publish */; };
+		C31847791979689900CCEB25 /* 背面.png in Resources */ = {isa = PBXBuildFile; fileRef = C31847781979689900CCEB25 /* 背面.png */; };
+		C318477B197972E300CCEB25 /* OpeningScene_1 in Resources */ = {isa = PBXBuildFile; fileRef = C318477A197972E300CCEB25 /* OpeningScene_1 */; };
+		C363BA3D197E9E53004E1329 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C363BA3B197E9E53004E1329 /* Card.cpp */; };
+		C363BA42198692E4004E1329 /* Opening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA41198692E4004E1329 /* Opening.jpg */; };
+		C363BA51198DF64D004E1329 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA45198DF64D004E1329 /* 0.jpg */; };
+		C363BA52198DF64D004E1329 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA46198DF64D004E1329 /* 5.jpg */; };
+		C363BA53198DF64D004E1329 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA47198DF64D004E1329 /* 8.jpg */; };
+		C363BA54198DF64D004E1329 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA48198DF64D004E1329 /* 9.jpg */; };
+		C363BA55198DF64D004E1329 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA49198DF64D004E1329 /* 10.jpg */; };
+		C363BA56198DF64D004E1329 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA4A198DF64D004E1329 /* 12.jpg */; };
+		C363BA57198DF64D004E1329 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA4B198DF64D004E1329 /* 13.jpg */; };
+		C363BA58198DF64D004E1329 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA4C198DF64D004E1329 /* 14.jpg */; };
+		C363BA59198DF64D004E1329 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA4D198DF64D004E1329 /* 15.jpg */; };
+		C363BA5A198DF64D004E1329 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA4E198DF64D004E1329 /* 16.jpg */; };
+		C363BA5B198DF64D004E1329 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA4F198DF64D004E1329 /* 17.jpg */; };
+		C363BA5C198DF64D004E1329 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C363BA50198DF64D004E1329 /* 21.jpg */; };
+		C363BA5E198E324D004E1329 /* HoroscoprResultScene in Resources */ = {isa = PBXBuildFile; fileRef = C363BA5D198E324D004E1329 /* HoroscoprResultScene */; };
+		C363BA61198E328A004E1329 /* HoroscopeResultScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C363BA5F198E328A004E1329 /* HoroscopeResultScene.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -296,25 +304,37 @@
 		C3184732196EE72000CCEB25 /* 運勢を選択.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "運勢を選択.png"; sourceTree = "<group>"; };
 		C3184733196EE72000CCEB25 /* 起動画面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "起動画面.jpg"; sourceTree = "<group>"; };
 		C3184734196EE72000CCEB25 /* 背面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背面.jpg"; sourceTree = "<group>"; };
-		C318473B196EE74900CCEB25 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
-		C318473C196EE74900CCEB25 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
-		C318473D196EE74900CCEB25 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
-		C318473E196EE74900CCEB25 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
-		C318473F196EE74900CCEB25 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
-		C3184745196EE82200CCEB25 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		C3184747196EE83200CCEB25 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
-		C3184748196EE83200CCEB25 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
-		C3184749196EE83200CCEB25 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
-		C318474A196EE83200CCEB25 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
-		C318474B196EE83200CCEB25 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
-		C318474C196EE83200CCEB25 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
 		C3184753196EE91500CCEB25 /* Opening.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Opening.cpp; sourceTree = "<group>"; };
 		C3184754196EE91500CCEB25 /* Opening.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opening.h; sourceTree = "<group>"; };
 		C3184756196EECD500CCEB25 /* 占いボタン1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "占いボタン1.png"; sourceTree = "<group>"; };
 		C3184757196EECD500CCEB25 /* 占いボタン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "占いボタン2.png"; sourceTree = "<group>"; };
 		C318475A196EF49D00CCEB25 /* OpeningSceneDialog_1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OpeningSceneDialog_1; sourceTree = "<group>"; };
-		C318475F196F05D300CCEB25 /* SampleUIAnimation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleUIAnimation; sourceTree = "<group>"; };
 		C31847641972C9C900CCEB25 /* picojson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = picojson.h; path = ../Classes/picojson.h; sourceTree = "<group>"; };
+		C318476E1978295800CCEB25 /* TarotChoiceScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TarotChoiceScene.cpp; path = ../Classes/TarotChoiceScene.cpp; sourceTree = "<group>"; };
+		C318476F1978295800CCEB25 /* TarotChoiceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TarotChoiceScene.h; path = ../Classes/TarotChoiceScene.h; sourceTree = "<group>"; };
+		C318477119782A0E00CCEB25 /* CardChoiceScene_1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardChoiceScene_1; sourceTree = "<group>"; };
+		C3184774197967C900CCEB25 /* publish */ = {isa = PBXFileReference; lastKnownFileType = folder; path = publish; sourceTree = "<group>"; };
+		C31847781979689900CCEB25 /* 背面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背面.png"; sourceTree = "<group>"; };
+		C318477A197972E300CCEB25 /* OpeningScene_1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OpeningScene_1; sourceTree = "<group>"; };
+		C363BA3B197E9E53004E1329 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Card.cpp; path = ../Classes/Card.cpp; sourceTree = "<group>"; };
+		C363BA3C197E9E53004E1329 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Classes/Card.h; sourceTree = "<group>"; };
+		C363BA41198692E4004E1329 /* Opening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Opening.jpg; sourceTree = "<group>"; };
+		C363BA45198DF64D004E1329 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		C363BA46198DF64D004E1329 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		C363BA47198DF64D004E1329 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		C363BA48198DF64D004E1329 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		C363BA49198DF64D004E1329 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		C363BA4A198DF64D004E1329 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		C363BA4B198DF64D004E1329 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		C363BA4C198DF64D004E1329 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		C363BA4D198DF64D004E1329 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		C363BA4E198DF64D004E1329 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		C363BA4F198DF64D004E1329 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		C363BA50198DF64D004E1329 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		C363BA5D198E324D004E1329 /* HoroscoprResultScene */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HoroscoprResultScene; sourceTree = "<group>"; };
+		C363BA5F198E328A004E1329 /* HoroscopeResultScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HoroscopeResultScene.cpp; path = ../Classes/HoroscopeResultScene.cpp; sourceTree = "<group>"; };
+		C363BA60198E328A004E1329 /* HoroscopeResultScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoroscopeResultScene.h; path = ../Classes/HoroscopeResultScene.h; sourceTree = "<group>"; };
+		C363BA62198E8169004E1329 /* GameSceneMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSceneMacros.h; path = ../Classes/GameSceneMacros.h; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -388,6 +408,13 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C363BA62198E8169004E1329 /* GameSceneMacros.h */,
+				C363BA5F198E328A004E1329 /* HoroscopeResultScene.cpp */,
+				C363BA60198E328A004E1329 /* HoroscopeResultScene.h */,
+				C318476E1978295800CCEB25 /* TarotChoiceScene.cpp */,
+				C318476F1978295800CCEB25 /* TarotChoiceScene.h */,
+				C363BA3C197E9E53004E1329 /* Card.h */,
+				C363BA3B197E9E53004E1329 /* Card.cpp */,
 				C31847641972C9C900CCEB25 /* picojson.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
@@ -510,20 +537,25 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C318475F196F05D300CCEB25 /* SampleUIAnimation */,
+				C363BA5D198E324D004E1329 /* HoroscoprResultScene */,
+				C363BA45198DF64D004E1329 /* 0.jpg */,
+				C363BA46198DF64D004E1329 /* 5.jpg */,
+				C363BA47198DF64D004E1329 /* 8.jpg */,
+				C363BA48198DF64D004E1329 /* 9.jpg */,
+				C363BA49198DF64D004E1329 /* 10.jpg */,
+				C363BA4A198DF64D004E1329 /* 12.jpg */,
+				C363BA4B198DF64D004E1329 /* 13.jpg */,
+				C363BA4C198DF64D004E1329 /* 14.jpg */,
+				C363BA4D198DF64D004E1329 /* 15.jpg */,
+				C363BA4E198DF64D004E1329 /* 16.jpg */,
+				C363BA4F198DF64D004E1329 /* 17.jpg */,
+				C363BA50198DF64D004E1329 /* 21.jpg */,
+				C363BA41198692E4004E1329 /* Opening.jpg */,
+				C318477A197972E300CCEB25 /* OpeningScene_1 */,
+				C31847781979689900CCEB25 /* 背面.png */,
+				C3184774197967C900CCEB25 /* publish */,
+				C318477119782A0E00CCEB25 /* CardChoiceScene_1 */,
 				C318475A196EF49D00CCEB25 /* OpeningSceneDialog_1 */,
-				C3184747196EE83200CCEB25 /* 9.jpg */,
-				C3184748196EE83200CCEB25 /* 12.jpg */,
-				C3184749196EE83200CCEB25 /* 13.jpg */,
-				C318474A196EE83200CCEB25 /* 14.jpg */,
-				C318474B196EE83200CCEB25 /* 15.jpg */,
-				C318474C196EE83200CCEB25 /* 16.jpg */,
-				C318473B196EE74900CCEB25 /* 0.jpg */,
-				C3184745196EE82200CCEB25 /* 5.jpg */,
-				C318473C196EE74900CCEB25 /* 8.jpg */,
-				C318473D196EE74900CCEB25 /* 10.jpg */,
-				C318473E196EE74900CCEB25 /* 17.jpg */,
-				C318473F196EE74900CCEB25 /* 21.jpg */,
 				C318472D196EE2F400CCEB25 /* Icon.png */,
 				C3184729196EE2D000CCEB25 /* Default@2x.png */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
@@ -706,49 +738,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3184746196EE82200CCEB25 /* 5.jpg in Resources */,
-				C318474F196EE83200CCEB25 /* 13.jpg in Resources */,
+				C363BA5E198E324D004E1329 /* HoroscoprResultScene in Resources */,
+				C363BA54198DF64D004E1329 /* 9.jpg in Resources */,
+				C363BA53198DF64D004E1329 /* 8.jpg in Resources */,
+				C363BA5C198DF64D004E1329 /* 21.jpg in Resources */,
+				C363BA51198DF64D004E1329 /* 0.jpg in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				C363BA52198DF64D004E1329 /* 5.jpg in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				C363BA42198692E4004E1329 /* Opening.jpg in Resources */,
 				C3184738196EE72000CCEB25 /* 運勢を選択.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
-				C3184743196EE74900CCEB25 /* 17.jpg in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				C3184737196EE72000CCEB25 /* タイトルに戻る.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
-				C3184750196EE83200CCEB25 /* 14.jpg in Resources */,
+				C363BA57198DF64D004E1329 /* 13.jpg in Resources */,
+				C3184775197967C900CCEB25 /* publish in Resources */,
 				C3184736196EE72000CCEB25 /* カードを選択.png in Resources */,
-				C3184752196EE83200CCEB25 /* 16.jpg in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
-				C3184742196EE74900CCEB25 /* 10.jpg in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				C318473A196EE72000CCEB25 /* 背面.jpg in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
-				C3184760196F05D300CCEB25 /* SampleUIAnimation in Resources */,
 				C318472E196EE2F400CCEB25 /* Icon.png in Resources */,
-				C3184741196EE74900CCEB25 /* 8.jpg in Resources */,
 				C318472A196EE2D000CCEB25 /* Default@2x.png in Resources */,
+				C363BA5A198DF64D004E1329 /* 16.jpg in Resources */,
+				C363BA58198DF64D004E1329 /* 14.jpg in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
-				C3184751196EE83200CCEB25 /* 15.jpg in Resources */,
 				C3184759196EECD500CCEB25 /* 占いボタン2.png in Resources */,
 				C3184735196EE72000CCEB25 /* CardListボタン.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
-				C3184744196EE74900CCEB25 /* 21.jpg in Resources */,
+				C31847791979689900CCEB25 /* 背面.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				C363BA55198DF64D004E1329 /* 10.jpg in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				C363BA5B198DF64D004E1329 /* 17.jpg in Resources */,
 				C3184739196EE72000CCEB25 /* 起動画面.jpg in Resources */,
 				C3184758196EECD500CCEB25 /* 占いボタン1.png in Resources */,
-				C318474D196EE83200CCEB25 /* 9.jpg in Resources */,
-				C318474E196EE83200CCEB25 /* 12.jpg in Resources */,
-				C3184740196EE74900CCEB25 /* 0.jpg in Resources */,
+				C318477219782A0E00CCEB25 /* CardChoiceScene_1 in Resources */,
 				C318475B196EF49D00CCEB25 /* OpeningSceneDialog_1 in Resources */,
+				C318477B197972E300CCEB25 /* OpeningScene_1 in Resources */,
+				C363BA56198DF64D004E1329 /* 12.jpg in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				C363BA59198DF64D004E1329 /* 15.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,6 +810,9 @@
 				C3184755196EE91500CCEB25 /* Opening.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				C363BA61198E328A004E1329 /* HoroscopeResultScene.cpp in Sources */,
+				C363BA3D197E9E53004E1329 /* Card.cpp in Sources */,
+				C31847701978295800CCEB25 /* TarotChoiceScene.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,

@@ -328,6 +328,7 @@ protected:
     {
         SEL_CallFunc    _callFunc;
         SEL_CallFuncN    _callFuncN;
+        SEL_CallFuncND    _callFuncND;
     };
     
     /** function that will be called */
@@ -355,7 +356,7 @@ public:
      @deprecated Use the std::function API instead.
     */
     CC_DEPRECATED_ATTRIBUTE static CallFuncN * create(Ref* target, SEL_CallFuncN selector);
-
+    CC_DEPRECATED_ATTRIBUTE static CallFuncN * create(Ref* target, SEL_CallFuncND selector, void* d);
     //
     // Overrides
     //
@@ -368,7 +369,11 @@ CC_CONSTRUCTOR_ACCESS:
 
     /** initializes the action with the std::function<void(Node*)> */
     bool initWithFunction(const std::function<void(Node*)>& func);
+    bool initWithFunction(const std::function<void (Node *,void *)> &func);
     
+    
+    CC_DEPRECATED_ATTRIBUTE bool initWithTarget(Ref* selectorTarget, SEL_CallFuncND selector,void* d);
+
     /** initializes the action with the callback
      
      typedef void (Ref::*SEL_CallFuncN)(Node*);
@@ -379,6 +384,8 @@ CC_CONSTRUCTOR_ACCESS:
 protected:
     /** function that will be called with the "sender" as the 1st argument */
     std::function<void(Node*)> _functionN;
+    std::function<void(Node*,void*)> _functionND;
+    void* _data;
 
 private:
     CC_DISALLOW_COPY_AND_ASSIGN(CallFuncN);
