@@ -13,6 +13,7 @@
 #include <fstream>
 #include <sstream>
 #include "picojson.h"
+#include "Opening.h"
 
 USING_NS_CC;
 USING_NS_CC_EXT;
@@ -28,16 +29,16 @@ enum TarotChoiceSceneTag {
 #define DEFALUTZOOMCARD_NUM 0.1
 #define ZOOMCARD_NUM 0.2
 
-Scene* HoroscopeResultScene::createScene(std::string cardName)
+Scene* HoroscopeResultScene::createScene(Card* cardName)
 {
     // 'scene' is an autorelease object
     auto scene = Scene::create();
     
     // 'layer' is an autorelease object
-    auto layer = HoroscopeResultScene::create(&cardName);
+    auto layer = HoroscopeResultScene::create((void*)(cardName));
     
     // add layer as a child to scene
-    scene->addChild(layer);
+    scene->addChild(layer,0,1);
     
     // return the scene
     return scene;
@@ -54,12 +55,12 @@ bool HoroscopeResultScene::init(void* CardName)
     {
         return false;
     }
-    m_card = Sprite::create(*static_cast<std::string*>(CardName));
+    m_card = static_cast<Card*>(CardName);//Sprite::create(*static_cast<std::string*>(CardName));
     
     // ベースの画面生成
     initBaseLayer();
     // Test用ボタン配置
-//    setBtn();
+    setBtn();
     return true;
 }
 
@@ -72,8 +73,6 @@ bool HoroscopeResultScene::onTouchBegan(Touch *touch, Event *event) {
 // 画面構成の生成
 void HoroscopeResultScene::initBaseLayer()
 {
-    // 画面サイズ取得
-    auto dispSize = Director::getInstance()->getVisibleSize();
     // layer 生成
     m_node = Layer::create();
     // color付きのlayer生成
@@ -84,13 +83,19 @@ void HoroscopeResultScene::initBaseLayer()
 
     this->addChild(m_node);
     
+//}
+
+//void HoroscopeResultScene::addResult(Card* card)
+//{
+//    m_card = card;
+    // 画面サイズ取得
+    auto dispSize = Director::getInstance()->getVisibleSize();
     // 選択したカードを画面に配置
-    m_card->setPosition(Vec2((m_card->getContentSize().width/2)+50,dispSize.height/2));
-    m_node->addChild(m_card);
-    
+    m_card->m_Sprite->setPosition(Vec2((m_card->m_Sprite->getContentSize().width/2)+50,dispSize.height/2));
+    m_node->addChild(m_card->m_Sprite);
     // 結果文言
     CCLabelTTF *labelString = CCLabelTTF::create(
-                                                 "正位置の「愚者」のタロットカードは、新しい可能性や変化を求める気持ちを意味しています。人の心に柔軟性をもたらし、それによって直感を鋭くさせていくでしょう。そして、何かを始めることに対して積極的な気持ちを与え、不安や迷いを感じさせないようにします。さらに、そこから生まれる行動は、人の才能を開花させるものになるでしょう。このカードはあなたに、感じたままに積極的に行動していいのだ、と伝えています。あなたの心は新鮮で、何かを始めたいという気持ちが高まっているでしょう。そして、それを行動に移すことで、前向きさはどんどん膨らんでいきます。直感が冴える時でもあり、同時に信念がはっきりしてくるので、始めたことは大きく展開していくはずです。", "HiraKakuProN-W6", 14, Size::ZERO, TextHAlignment::LEFT );
+                                                 "正位置の「愚者」のタロットカードは、新しい可能性や変化を求める気持ちを意味しています。人の心に柔軟性をもたらし、それによって直感を鋭くさせていくでしょう。そして、何かを始めることに対して積極的な気持ちを与え、不安や迷いを感じさせないようにします。さらに、そこから生まれる行動は、人の才能を開花させるものになるでしょう。このカードはあなたに、感じたままに積極的に行動していいのだ、と伝えています。あなたの心は新鮮で、何かを始めたいという気持ちが高まっているでしょう。そして、それを行動に移すことで、前向きさはどんどん膨らんでいきます。直感が冴える時でもあり、同時に信念がはっきりしてくるので、始めたことは大きく展開していくはずです。正位置の「愚者」のタロットカードは、新しい可能性や変化を求める気持ちを意味しています。人の心に柔軟性をもたらし、それによって直感を鋭くさせていくでしょう。そして、何かを始めることに対して積極的な気持ちを与え、不安や迷いを感じさせないようにします。さらに、そこから生まれる行動は、人の才能を開花させるものになるでしょう。このカードはあなたに、感じたままに積極的に行動していいのだ、と伝えています。あなたの心は新鮮で、何かを始めたいという気持ちが高まっているでしょう。そして、それを行動に移すことで、前向きさはどんどん膨らんでいきます。直感が冴える時でもあり、同時に信念がはっきりしてくるので、始めたことは大きく展開していくはずです。正位置の「愚者」のタロットカードは、新しい可能性や変化を求める気持ちを意味しています。人の心に柔軟性をもたらし、それによって直感を鋭くさせていくでしょう。そして、何かを始めることに対して積極的な気持ちを与え、不安や迷いを感じさせないようにします。さらに、そこから生まれる行動は、人の才能を開花させるものになるでしょう。このカードはあなたに、感じたままに積極的に行動していいのだ、と伝えています。あなたの心は新鮮で、何かを始めたいという気持ちが高まっているでしょう。そして、それを行動に移すことで、前向きさはどんどん膨らんでいきます。直感が冴える時でもあり、同時に信念がはっきりしてくるので、始めたことは大きく展開していくはずです。正位置の「愚者」のタロットカードは、新しい可能性や変化を求める気持ちを意味しています。人の心に柔軟性をもたらし、それによって直感を鋭くさせていくでしょう。そして、何かを始めることに対して積極的な気持ちを与え、不安や迷いを感じさせないようにします。さらに、そこから生まれる行動は、人の才能を開花させるものになるでしょう。このカードはあなたに、感じたままに積極的に行動していいのだ、と伝えています。あなたの心は新鮮で、何かを始めたいという気持ちが高まっているでしょう。そして、それを行動に移すことで、前向きさはどんどん膨らんでいきます。直感が冴える時でもあり、同時に信念がはっきりしてくるので、始めたことは大きく展開していくはずです。", "HiraKakuProN-W6", 14, Size::ZERO, TextHAlignment::LEFT );
     float scrollViewWidth = dispSize.width*0.4;
     float scrollViewHeight = dispSize.width*0.6;
     
@@ -110,7 +115,7 @@ void HoroscopeResultScene::initBaseLayer()
     // アンカーポイントを左上に変更
     scrollView->setAnchorPoint(Vec2(0,1));
     // スクロールビュの配置位置は、カードの上と面をあわせる
-    scrollView->setPosition(Vec2(dispSize.width*0.6 ,dispSize.height*0.5 + m_card->getContentSize().height/2));
+    scrollView->setPosition(Vec2(dispSize.width*0.6 ,dispSize.height*0.5 + m_card->m_Sprite->getContentSize().height/2));
     // 縦スクロールのみ許可
     scrollView->setDirection(extension::ScrollView::Direction::VERTICAL);
 //    scrollView->setBounceable(false);
@@ -136,39 +141,29 @@ void HoroscopeResultScene::setBtn()
 {
     //     Size winSize = Director::getInstance()->getVisibleSize();
     // ボタン生成
-    MenuItemImage* btnHoroscope1 = MenuItemImage::create("占いボタン1.png","占いボタン1.png",CC_CALLBACK_1(HoroscopeResultScene::tap,this));
+    MenuItemImage* btnHoroscope1 = MenuItemImage::create("タイトルに戻る.png","タイトルに戻る.png",CC_CALLBACK_1(HoroscopeResultScene::tap,this));
     Menu* topMenu = Menu::create(btnHoroscope1, NULL);
-    topMenu->setPosition(Vec2(400,100));
+    topMenu->setPosition(Vec2(200,200));
     topMenu->alignItemsVertically();
     m_node->addChild(topMenu);
-    auto fade =FadeIn::create(2.0f);
-    auto move = MoveBy::create(5.0f, Vec2(0,0));
-    auto seq = Sequence::create(fade,move, NULL);
-    topMenu->runAction(seq);
+//    auto fade =FadeIn::create(2.0f);
+//    auto move = MoveBy::create(5.0f, Vec2(0,0));
+ //   auto seq = Sequence::create(fade,move, NULL);
+//    topMenu->runAction(seq);
 }
 
 // お試しのボタン押下時のアクション
 void HoroscopeResultScene::tap(Ref* pSender)
 {
-    CCLOG("taped¥n");
-//    auto card = node->getChildByTag(10007);
-    ComRender *child;
-    Sprite *card;
-    child = (ComRender*)(m_node->getChildByTag(10006)->getComponent("CCSprite"));
-    card = (Sprite*)(child->getNode());
-    auto fade =FadeIn::create(2.0f);
-    auto move = MoveBy::create(5.0f, Vec2(200,0));
-    auto seq = Sequence::create(fade,move, NULL);
-    card->runAction(seq);
-
-    child = (ComRender*)(m_node->getChildByTag(10010)->getComponent("CCSprite"));
-    auto a = child->getOwner();
-    auto fade2 =FadeIn::create(2.0f);
-    auto move2 = MoveBy::create(5.0f, Vec2(200,0));
-    auto seq2= Sequence::create(fade2,move2, NULL);
-    a->runAction(seq2);//    Sprite *card2 = Sprite::create("9.jpg");
-//    node->addChild(card2);
-//    card2->runAction(seq);
+    //次のシーンとして、HelloWorldシーンをセット
+    Scene* nextScene = Opening::createScene();
+    //切り替えの時間を設定。ここでは1秒
+    float duration = 1.0f;
+    //フェードイン＆フェードアウト（CCTransitionFade）でトランジショーーーン
+    Scene* pScene = CCTransitionFade::create(duration, nextScene);
+    if(pScene){
+        CCDirector::getInstance()->replaceScene(pScene);
+    }
 }
 
 

@@ -21,3 +21,8 @@ Card::~Card(){
 void Card::reverseCard() {
     
 }
+Card* Card::clone() {
+    // 二重登録になると落ちるので、新規Sprite生成で逃げる。。。
+    cocos2d::Sprite* sprite = cocos2d::Sprite::create(m_face);
+    return new Card(m_face, m_Node, sprite);    
+}

@@ -16,7 +16,8 @@
 class Card
 {
 public:
-    cocos2d::Sprite *m_Sprite;
+//    std::unique_ptr<cocos2d::Sprite> m_Sprite;
+    cocos2d::Sprite* m_Sprite;
     cocos2d::Node *m_Node;
     std::string m_face;
 
@@ -25,6 +26,7 @@ public:
     Card(std::string face, cocos2d::Node* node, cocos2d::Sprite* sprite);
     ~Card();
     void reverseCard();
+    Card* clone();
     
 };
 

@@ -23,21 +23,25 @@ class HoroscopeResultScene : public cocos2d::Layer
 public:
     Layer* m_baseLayer;
     cocos2d::Node* m_node;
-    Sprite* m_card;
+    Card* m_card;
+//    Sprite* m_card;
     
 //    virtual bool init();
     virtual bool init(void* arg);
     
-    static cocos2d::Scene* createScene(std::string targetCard);
+//    static cocos2d::Scene* createScene(std::string targetCard);
+    static cocos2d::Scene* createScene(Card* targetCard);
     
     void initBaseLayer();
+    void addResult(Card* card);
+
     void setBtn();
     void tap(Ref* pSender);
     bool onTouchBegan(Touch *touch, Event *event);
 
     
     void menuCloseCallback(cocos2d::Ref* pSender);
-    SCENE_FUNC_WITH_ARG(HoroscopeResultScene);
+    CREATE_FUNC_WITH_ARG(HoroscopeResultScene);
 };
 
 #endif /* defined(__tarot__HoroscopeResultScene__) */
